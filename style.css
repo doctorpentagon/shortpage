@@ -1,0 +1,84 @@
+body {margin: 0 auto; font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(189, 196, 196);;
+max-width: 100%}
+
+    li {   list-style: none; font-size: 0.7em; margin: 0;}
+
+.navbar{background-color:rgb(189, 196, 196);}
+.nav:hover {
+    cursor:pointer;
+    max-width: 100%;
+    color:rgb(87, 86, 86);
+    font-size:2em;
+   border-radius:4px; 
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+ 
+.li {
+    padding: 0;
+    margin: 0px;
+}
+.list {
+    display: flex;
+}
+.last {margin-left: auto; 
+justify-content: flex-end;}
+
+
+.image1 {padding: 0%; margin: 0%; width: 40%;}
+
+.main{
+    padding: 15px;
+    background: linear-gradient( rgb(46, 45, 45) 0%, #000000 100%); 
+    display: flex; height: 70vh; align-items: center; justify-content: center;
+    flex-wrap: wrap;
+}
+
+.maincontent{
+    display: flex;
+}
+
+.title {margin: 5px; 
+color: white;
+}
+
+@media only screen and (max-width: 720px) { 
+.main {
+    height: fit-content;
+}
+.maincontent{
+    display: block;
+}}
+    
+
+.image {width: 25rem;}
+
+.card {
+    max-width: auto;
+}
+
+.endword {
+    width: fit-content;
+    max-width: 100%;
+    margin: 10px;
+}
+
+footer {
+    margin-top:7vh;
+    background-color: rgb(36, 35, 35); /* Old browsers */
+    height: 10vh;
+    text-align: center;
+    margin: px;
+    color: white;
+    font-size:  15px;
+}
+.foottext {
+    text-align: center;
+    justify-content: center;
+    transform: translateY(50%);
+
+}
